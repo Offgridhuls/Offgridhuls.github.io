@@ -11,7 +11,7 @@ pygmentsUseClasses: true
 
 module:
   imports:
-  - path: github.com/kdevo/osprey-delight/v5
+  - path: github.com/kdevo/osprey-delight
   # useful for local development of the theme:
   # replacements:
   # - github.com/kdevo/osprey-delight/v5 -> ../../.
@@ -98,7 +98,7 @@ Params:
 
     # notifyOnNewThemeVersion enables a notification for every new minor/major version of this theme.
     #   Whenever there is a new one, a warning is printed to console.
-    notifyOnNewThemeVersion: true
+    notifyOnNewThemeVersion: false
   
   # Image resizing can be configured here (see README for more info):
   Image:
