@@ -1,27 +1,12 @@
-# General
-warning:
-  id: fas exclamation-triangle
-  title: Warning
-menu: 
-  id: fas bars
-  title:
-  description: Menu
+# Add custom icons and use them accordingly as social icon as 'type' in config.yaml:
+spotify: fab spotify
+bandcamp: fab bandcamp
+heart: fas heart
+gift: fas gift
 
-# Modal
-close: 
-  id: fas times
-  title: Close
-download: fas download
-code: fas terminal
-view: fas angle-right
-github-octocat: fab github-alt
+# This rocket will be displayed in the about section (see about.md):
+rocket: fas rocket
 
-# Contact
-contact:
-  id: fas envelope
-  title: E-Mail
-sending: fas space-shuttle
-ok: fas check-circle
-
-# Social
-github: fab github
+# Overriding the default icons is just as easy! 
+# This will switch the gallery modals close button to a circled close icon, comment it out to see the difference:
+close: fas times-circle
