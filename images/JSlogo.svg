@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720">
+	<title>New Project</title>
+	<defs>
+		<image  width="720" height="720" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtAAAALQAQMAAACDmdXfAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAFVJREFUeJztwQEBAAAAgiD/r25IQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBo//AAATZGS/AAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 200px;fill: #000000;font-weight: 400;font-family: "DoHyeon-Regular", "Do Hyeon" } 
+	</style>
+	<use id="Background" style="opacity: 0" href="#img1" x="0" y="0"/>
+	<text id="JS" style="transform: matrix(1,0,0,1,32,280)" >
+		<tspan x="222.9" y="136.2" class="t0">J</tspan><tspan  y="136.2" class="t0">S
+</tspan>
+	</text>
+</svg>
