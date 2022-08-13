@@ -541,6 +541,7 @@ blockquote p {
   z-index: -1;
   clear: both;
   max-width: 100%;
+  width: 100%;
   background-image: url('images/SiteBackground.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -713,6 +714,7 @@ blockquote p {
   z-index: 10;
   height: 100%;
   width: 100%;
+  overflow: hidden;
   display: flex;
   padding: 50px;
 }
