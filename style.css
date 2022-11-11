@@ -75,6 +75,22 @@ a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
        -o-transition: all .12s linear;
           transition: all .12s linear;
 }
+/* new from milen */
+.modal-picture img {
+  width: auto;
+  height: auto;
+}
+.modal-Text > * {
+  margin: auto;
+}
+.modal-Text p {
+  font-size: min(2vw, 1em);
+  line-height: min(3vw, 2em);
+}
+.modal-Text a {
+  font-size: min(3vw, 1em);
+  padding: 1vw;
+}
 
 body {
   height: 100vh;
@@ -703,6 +719,7 @@ blockquote p {
 
 .modal-picture {
   overflow: hidden;
+  max-width: 50%;
 }
 
 /* Modal Content */
@@ -712,9 +729,11 @@ blockquote p {
   z-index: 10;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
   display: flex;
-  padding: 50px;
+  /* new from milen */
+  align-items: center;
+  padding: min(40px, 2vh);
 }
 
 .modal-Text {
@@ -725,6 +744,12 @@ blockquote p {
   padding-left: 20px;
   position: relative;
   text-align: left;
+  /*new from milen*/
+  display: flex;
+  flex-direction: column;
+}
+.modal-Text h2 {
+  font-size: min(3vw, 2.8em);
 }
 /* The Close Button */
 .close {
