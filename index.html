@@ -1,425 +1,450 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name = "viewport" content = "width=device-width, height=device-height, initial-scale=1">
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Julian Sangiorgio</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/simplegrid.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/lightcase.css">
-    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
-    <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
 
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet'
-        type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/jsfavicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/jsfavicon.png">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+<body>
 
-<body id="home" onload="loadModals()">
-    <!-- Header -->
-    <header id="top-header" class="header-home">
-        <div class="grid">
-            <div class="col-1-1">
-                <div class="content">
-                    <div class="logo-wrap">
-                        <a href="#home" class="logo">JS</a>
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a href="#hero" class="site-logo"><img src="assets/img/JSlogo.png" alt="logo"></a>
+
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="page-scroll"><a href="#hero" style="font-size: 25px;"><b>Home</b></a></li>
+                        <li class="page-scroll"><a href="#about" style="font-size: 25px;"><b>About</b></a></li>
+                        <li class="page-scroll"><a href="#service" style="font-size: 25px;"><b>Service</b></a></li>
+                        <li class="page-scroll"><a href="#portfolio" style="font-size: 25px;"><b>Portfolio</b></a></li>
+                        <li class="page-scroll"><a href="#contact" style="font-size: 25px;"><b>Contact</b></a></li>
+                        
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
+            </div>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h1>Julian Sangiorgio</h1>
+                    <div class="page-scroll">
+                        <p class="job-title"><b>Game Developer</b></p>
+                        <a href="#contact" class="btn btn-fill ">Contact Me &#9993 </a>
                     </div>
-                    <nav class="navigation">
-                        <input type="checkbox" id="nav-button">
-                        <label for="nav-button" onclick></label>
-                        <ul class="nav-container">
-                            <li><a href="#home" class="current">Home</a></li>
-                            <li><a href="#services">About Me</a></li>
-                            <li><a href="#work">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
                 </div>
+            
+                <div class="col-md-6 text-right">
+                    <img style="border: 5px solid black" src="assets/img/h2.jpg" alt="alex-vidal">
+                </div>
+
             </div>
         </div>
-    </header>
-    <!-- End Header -->
+    </div><!-- /.hero -->
 
-    <!-- Parallax Section -->
-    <div class="parallax-section parallax1">
-        <div class="grid grid-pad">
-            <div class="col-1-1">
-                <div class="content content-header">
-                    <h2 style="font-size: 7vw;  text-align: center;">Julian Sangiorgio</h2>
-                    <div class="row">
-                        <div class="column">
-                            <h2>Languages</h2>
-                            <p>C++<br>
+    <main id="main" class="site-main">
+
+        <section id="about" class="site-section section-about text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2>About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <p>Hi my name is Julian I am a 20 year old Game Programming student from George Brown College where I have been
+                            exposed to a wide range of topics and specialties. I started programming in high school where I was initially taught in java, which sparked an interest in Game Development. With the new found passion I then went to pursue my dream career of being a Game Developer. I'm looking forward to the many chances that
+                            lie ahead, including the ability to utilise my game and development knowledge in the
+                            real world, all while aiming to be the best person I can be. In the meantime, I enjoy staying
+                            active, and I also spend some of my leisure time watching and participating in sports.</p>
+                        <a href="Julian Sangiorgio RESUME.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
+
+        <section class="site-section section-skills">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My Skills</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>C#</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        
+                    </div>
+                    <div class = "col-md-4">
+                        <div class = "skill">
+                            <h4>C++</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="97"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        
+                    </div>
+                    <div class = "col-md-4">
+                        <div class="skill">
+                            <h4>Java</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-skills -->
+
+        <section id="service" class="site-section section-services overlay text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>What i do</h3>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <h4>Languages</h4>
+                            <b><p>C++<br>
                                 C#<br>
                                 Java<br>
                                 JS<br>
                                 CSS<br>
                                 HTML</p>
-                        </div>
-                        <div class="column">
-                            <h2>Libraries</h2>
-                            <p>Unreal Engine<br>
+                            </b>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <h4>Libraries</h4>
+                        <b><p>Unreal Engine<br>
                                 Unity Engine<br>
                                 OpenGL<br>
                                 SDL<br>
                                 OGRE<br>
                                 DirectX<br>
                                 XCode</p>
-                        </div>
-                        <div class="column">
-                            <h2>DevOps</h2>
-                            <p>Git<br>
+                        </b>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <h4>DevOps</h4>
+                            <b><p>Git<br>
                                 Perforce<br>
                                 CMake<br>
                                 Doxygen</p>
-                        </div>
-
+                                </b>
+                        </div><!-- /.service -->
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- End Parallax Section -->
+        </section><!-- /.secton-services -->
 
-        <!-- CurveUp -->
-        <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-            viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
-        </svg>
-
-        <!-- Services Section -->
-        <div class="wrap services-wrap" id="services">
-            <section class="grid grid-pad services">
-                <h2>About Me</h2>
-                <div class="col-1-2">
-                    <p style="text-align: left">Hi my name is Julian I am a 20 year old Game Programming student from George Brown College where I have been
-                        exposed to a wide range of topics and specialties. I started programming in high school where I was initially taught in java, which sparked an interest in Game Development. With the new found passion I then went to pursue my dream career of being a Game Developer. I'm looking forward to the many chances that
-                        lie ahead, including the ability to utilise my game and development knowledge in the
-                        real world, all while aiming to be the best person I can be. In the meantime, I enjoy staying
-                        active, and I also spend some of my leisure time watching and participating in sports.
-                        <br>
-                        <br>
-                        <br>
-                        <a href="mailto:juliansangiorgio@outlook.com" class="button"target="blank" rel="noreferrer">
-                            Contact Me &#9993
-                        </a>
-                    </p>
-                        
+        <section id="portfolio" class="site-section section-portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My recent Works</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                 </div>
-                <img style = "width: 40%; height: auto; text-align: right; border: 5px solid #555;" src="images/work/h1.jpg" alt="My Headshot" width="500" height="600">
-        </div>
-        </section>
-    </div>
-    <!-- End Services Section -->
-
-    <!-- CurveDown -->
-    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-        viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
-    </svg>
-
-    <!-- Work Section -->
-    <div class="wrap grey recent-wrap" id="work">
-        <section class="grid grid-pad">
-            <h2>Portfolio</h2>
-            <!-- Start of Filter section -->
-            <!-- End of Filter section -->
-            <div class="portfolio-items">
-
-                <div class="col-1-3 mix Console">
-
-                    <div class="content">
-
-                        <img src="images/work/buffbabies.png" a class="myBtn portfolio-image" alt="">
-                        <div id="myModal" class="modal">
-
-                            <div class="modal-content">
-                                <div class ="modal-picture">
-                                    <img style = "width: 100%; height: auto; overflow: hidden;" src = "images/work/buffbabies.png" alt="">
-                                </div>
-                                    <div class ="modal-Text">
-
-                                    <h2>Buff Babies (Unreal Engine)</h2>
-                                    <p>School project made with Game Programming students at George Brown College. Buff babies is about a baby in a dream who is fending off monsters to avoid bedtime. The buff baby has a combo moveset they learned from watching boxing videos on TV. They collect candy and special power ups while they try to avoid spike traps, swinging pendulum hammers and unstable platforms along the way.
-                                    </p>
-                                    <a href="https://tamdevs.itch.io/buff-babies" class="button" target="blank" rel="noreferrer">
-                                        View on Itch.io &#8594
-                                    </a>
-                                
-                                    </div>
-
-                                <span class="close">&times;</span>
-
-                            </div>
-
-                        </div>
-
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/buffbabies.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Buff Babies</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://tamdevs.itch.io/buff-babies"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
                     </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-1-3 mix Windows">
-                <div class="content">
-                    <img src="images/work/planetarium.png"  a class="myBtn portfolio-image" alt="">
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <div class ="modal-picture">
-                                <img style = "width: 100%; height: 100%; overflow: hidden" src ="images/work/planetarium.png" alt="">
-                            </div>
-
-                                <div class ="modal-Text">
-                                <h2>Planetarium (Unity Engine)</h2>
-                                <p>Upcoming Singleplayer 3D game being created by me. The game is set in a low-poly toon planet where your objective is to gather resources and fight off waves of aliens trying to captalize your planet.  In order for you to survive, you must traverse multiple planets to find the resources needed to create a new ship. The game features pleasing art, interesting physics, and some enemies.
-                                </p>
-                                <a href="https://www.youtube.com/watch?v=xF1flf3pE9A" class="button" target="blank" rel="noreferrer">
-                                    View on Youtube &#8594
-                                </a>
-                            
-                            
-                            </div>
-                            <span class="close">&times;</span>
-                        </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/planetarium.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Planetarium</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://www.youtube.com/watch?v=xF1flf3pE9A"><span class="glyphicon glyphicon-link"> </span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/terminalscape.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Terminalscape</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://techjumper.itch.io/terminal-scape"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/spacecapitalist.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Space-Capitalist</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://mandipx56.itch.io/space-capitalist"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/Resource.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Resource-Mining Minigame</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://youtu.be/UfWsSg0IlJM"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/shootoutsim.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Shoot-Out Simulator</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://youtu.be/tPMuGiwJeoM"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/DX12demo.png" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>DirectX12 Demo</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem7"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://www.youtube.com/watch?v=G6N9SRNO-Us"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
                     </div>
                 </div>
             </div>
-            <div class="col-1-3 mix Windows">
-                <div class="content">
-                    
-                        <img src="images/work/terminalscape.png"  a class="myBtn portfolio-image" alt="">
-                        <div id="myModal" class="modal">
-                            <div class="modal-content">
-                                <div class = "modal-picture">
-                                    <img style = "width: 100%; height: 100%; "src="images/work/terminalscape.png" alt="">
-                                </div>
-                            
-                                    <div class ="modal-Text">
-                                    <h2 style ="text-align:left">Terminalscape (Unity Engine)</h2>
-                                    <p> Top-down, 2d, rogue-lite rpg made in Unity. The player is tasked with breaking into a network and battling security systems in order to steal data. The network is represented by a series of rooms with several terminals, interacting with which will start a combat event. The combat event is a turn based battle where the player and the enemy take turns playing abilities against each other until one party's Health Points reach 0. Upon victory, the player is awarded with a preset "data package" which can contain either an ability, ability upgrade, or a stat upgrade, and allow entrance into the next room. Entering the next room will increase enemy health and bandwidth. Upon player death, their stats and ability stack, as well as enemy difficulty are reset to the last save point.
-                                    </p>
-                                    <a href="https://techjumper.itch.io/terminal-scape" class="button" target="blank" rel="noreferrer">
-                                        View on Itch.io &#8594
-                                    </a>
-                                
-                                
-                                </div>
-                                <span class="close">&times;</span>
-                            </div>
-                        </div>
-                    
-                </div>
-            </div>
-            <div class="col-1-3 mix Mobile">
-                <div class="content">
-                    
-                        <img src="images/work/spacecapitalist.png" a class="myBtn portfolio-image" alt="">
-                        <div id="myModal" class="modal">
-                            <div class="modal-content">
-                               <div class = "modal-picture">
-                                    <img style = "width: 100%; height: 100%; overflow: hidden" src="images/work/spacecapitalist.png" alt="">
-                               </div>
-                                    <div class ="modal-Text">
-                                    <h2 style ="text-align:left">Space-Capitalist (Unity Engine)</h2>
-                                    <p> Your goal as Geoff Bozos, is to get a foothold on a new planet to pave the way into a developers fortune!
-                                        If you let the inhabitants rob you of your money, you will find yourself escaping with nothing but the shirt on your back.
-                                        The more trouble the inhabitants give you the less investors will believe in your idea. Once your out of money your development is over.
-                                        Survive  in this top down tower defense game, by gathering resources and building a path lined with defenses made from them.
-                                        Displace all of the inhabitants to turn this planet into a money making machine.
-                                    </p>
-                                    <a href="https://mandipx56.itch.io/space-capitalist" class="button" target="blank" rel="noreferrer">
-                                        View on Itch.io &#8594
-                                    </a>
-                                
-                                </div>
-                                <span class="close">&times;</span>
-                            </div>
-                        </div>
-                    
-                </div>
-            </div>
-            <div class="col-1-3 mix Windows">
-                <div class="content">
-                    <img src="images/work/Resource.png"  a class="myBtn portfolio-image" alt="">
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <div class="modal-picture">
-                                <img style = "width: 100%; height: 100%; overflow: hidden" src="images/work/Resource.png" alt="">
-                            </div>
-                                <div class ="modal-Text">
-                                <h2 style ="text-align:left">Resource Mining Minigame (Unity Engine)</h2>
-                                <p> A mining minigame made as an assignment at George Brown College. A grid of tiles are created and indexed at the start of the scene. Resource chunks are created in the grid in which you are supposed to find and extract using the limited amount of scans and extracts given to you at the beginning of the game. Made with Unity.
-                                </p>
-                                <a href="https://youtu.be/UfWsSg0IlJM" class="button" target="blank" rel="noreferrer">
-                                    View on Youtube &#8594
-                                </a>
-                            
-                            </div>
-                            <span class="close">&times;</span>
-                        </div>
+        </section><!-- /.secton-portfolio -->
+
+        <!-- /.section-counters -->
+
+        <section id="contact" class="site-section section-form text-center">
+            <div class="container">
+
+                <h3>Contact</h3>
+                <img src ="assets/img/lines.svg" class="img-lines" alt="lines">
+                <div class ="row">
+                    <a href="mailto:juliansangiorgio@Outlook.com" target="blank" rel="noreferrer">
+                    <img src="assets/img/mail.png" class = "footer-icons list-inline" alt ="">
+                    </a>
+                    <a href="https://github.com/Offgridhuls" target="blank" rel="noreferrer">
+                    <img src="assets/img/github.png" class="footer-icons list-inline" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/julian-sangiorgio-9033b61a0/" target="blank" rel="noreferrer">
+                    <img src="assets/img/linkedin-logo.png" class="footer-icons list-inline" alt="">
+                    </a>
                     </div>
                 </div>
+                <div style="text-align: center; padding-top: 50px;">Copyright © Julian Sangiorgio</div>
             </div>
-            <div class="col-1-3 mix Windows">
-                <div class="content">
-                    <img src="images/work/Resource.png"  a class="myBtn portfolio-image" alt="">
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <div class="modal-picture">
-                                <img style = "width: 100%; height: 100%; overflow: hidden" src="images/work/Resource.png" alt="">
-                            </div>
-                                <div class ="modal-Text">
-                                <h2 style ="text-align:left">Resource Mining Minigame (Unity Engine)</h2>
-                                <p> A mining minigame made as an assignment at George Brown College. A grid of tiles are created and indexed at the start of the scene. Resource chunks are created in the grid in which you are supposed to find and extract using the limited amount of scans and extracts given to you at the beginning of the game. Made with Unity.
-                                </p>
-                                <a href="https://youtu.be/UfWsSg0IlJM" class="button" target="blank" rel="noreferrer">
-                                    View on Youtube &#8594
-                                </a>
-                            
-                            </div>
-                            <span class="close">&times;</span>
-                        </div>
-                    </div>
-                </div>
+        </section><!-- /.section-form -->
+
+    </main><!-- /#main -->
+
+    <!-- /#footer -->
+
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/buffbabies.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Buff Babies</h4>
+            <p>School project made with Game Programming students at George Brown College. Buff babies is about a baby in a dream who is fending off monsters to avoid bedtime. The buff baby has a combo moveset they learned from watching boxing videos on TV. They collect candy and special power ups while they try to avoid spike traps, swinging pendulum hammers and unstable platforms along the way.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://tamdevs.itch.io/buff-babies" class="btn btn-fill">View On Itch.io &#8594</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/planetarium.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Planetarium</h4>
+            <p>Upcoming Singleplayer 3D game being created by me. The game is set in a low-poly toon planet where your objective is to gather resources and fight off waves of aliens trying to captalize your planet. In order for you to survive, you must traverse multiple planets to find the resources needed to create a new ship. The game features pleasing art, interesting physics, and some enemies.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://www.youtube.com/watch?v=xF1flf3pE9A" class="btn btn-fill">View On Youtube &#8594</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/terminalscape.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Terminal Scape</h4>
+            <p>Top-down, 2d, rogue-lite rpg made in Unity. The player is tasked with breaking into a network and battling security systems in order to steal data. The network is represented by a series of rooms with several terminals, interacting with which will start a combat event. The combat event is a turn based battle where the player and the enemy take turns playing abilities against each other until one party's Health Points reach 0. Upon victory, the player is awarded with a preset "data package" which can contain either an ability, ability upgrade, or a stat upgrade, and allow entrance into the next room. Entering the next room will increase enemy health and bandwidth. Upon player death, their stats and ability stack, as well as enemy difficulty are reset to the last save point.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://techjumper.itch.io/terminal-scape" class="btn btn-fill">View On Itch.io &#8594</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/spacecapitalist.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Space-Capitalist</h4>
+            <p>Your goal as Geoff Bozos, is to get a foothold on a new planet to pave the way into a developers fortune! If you let the inhabitants rob you of your money, you will find yourself escaping with nothing but the shirt on your back. The more trouble the inhabitants give you the less investors will believe in your idea. Once your out of money your development is over. Survive in this top down tower defense game, by gathering resources and building a path lined with defenses made from them. Displace all of the inhabitants to turn this planet into a money making machine.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://mandipx56.itch.io/space-capitalist" class="btn btn-fill">View On Itch.io &#8594</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/Resource.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Resource Mining Minigame</h4>
+            <p>A mining minigame made as an assignment at George Brown College. A grid of tiles are created and indexed at the start of the scene. Resource chunks are created in the grid in which you are supposed to find and extract using the limited amount of scans and extracts given to you at the beginning of the game. Made with Unity.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://youtu.be/UfWsSg0IlJM" class="btn btn-fill">View On Youtube &#8594</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/shootoutsim.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Shoot-Out Simulator</h4>
+            <p>Simulation made for Physics Engines course at George Brown College. Try to kick a soccer ball into a net in any direction with any power. A curve is created to show trajectory of the kick.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://youtu.be/tPMuGiwJeoM" class="btn btn-fill">View On Youtube &#8594</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem7" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+              <img class="img-res" src="assets/img/DX12demo.png" alt="">
             </div>
-            <div class="col-1-3 mix Windows">
-                <div class="content">
-                    <img src="images/work/shootoutsim.png"  a class="myBtn portfolio-image" alt="">
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <div class ="modal-picture">
-                                <img style = "width: 100%; height: 100%; overflow: hidden" src="images/work/shootoutsim.png" alt="">
-                                </div>
-                                <div class ="modal-Text">
-                                <h2 style ="text-align:left">Shoot-Out Simulator (Unity Engine)</h2>
-                                <p> Simulation made for Physics Engines course at George Brown College. Try to kick a soccer ball into a net in any direction with any power. A curve is created to show trajectory of the kick.
-                                </p>
-                                <a href="https://youtu.be/tPMuGiwJeoM" class="button" target="blank" rel="noreferrer">
-                                    View on Youtube &#8594
-                                </a>
-                            
-                            </div>
-                            <span class="close">&times;</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-body">
+              <h4 class="modal-title">DirectX12 Engine Demo</h4>
+              <p>Rendering assignment created for Game Engine Development II at George Brown College in which myself and a partner created a small scale rendering engine with simple physics, splash screen, play screen, and pause screen. The game features simple a simple aircraft with 2D controls in a 3D world along with two other AI objects that bounce around the scene. Made in DirectX12.</p>
             </div>
-            <div class="col-1-3 mix Windows">
-                <div class="content">
-                    <img src="images/work/DX12demo.png"  a class="myBtn portfolio-image" alt="">
-                    <div id="myModal" class="modal">
-                        <div class="modal-content">
-                            <div class ="modal-picture">
-                                <img style = "width: 100%; height: 100%; overflow: hidden" src="images/work/DX12demo.png" alt="">
-                                </div>
-                                <div class ="modal-Text">
-                                <h2 style ="text-align:left">DirectX12 Engine Demo (DirectX12)</h2>
-                                <p> Rendering assignment created for Game Engine Development II at George Brown College in which myself and a partner created a small scale rendering engine with simple physics, splash screen, play screen, and pause screen. The game features simple a simple aircraft with 2D controls in a 3D world along with two other AI objects that bounce around the scene. Made in DirectX12.
-                                </p>
-                                <a href="https://www.youtube.com/watch?v=G6N9SRNO-Us" class="button" target="blank" rel="noreferrer">
-                                    View on Youtube &#8594
-                                </a>
-                            
-                            
-                            </div>
-                            <span class="close">&times;</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-footer">
+              <a href="https://www.youtube.com/watch?v=G6N9SRNO-Us" class="btn btn-fill">View On Youtube &#8594</a>
             </div>
-            
-         </div>
-        </div>
-    </section>
-    </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div>
 
-    <!-- CurveUp -->
-    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-        viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
-    </svg>
-
-    <!-- CurveDown -->
-    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-        viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
-    </svg>
-
- 
-
-    <!-- CurveUp -->
-    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-        viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
-    </svg>
-
-
-    <!-- CurveDown -->
-    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-        viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
-    </svg>
-
-
-    <!-- CurveUp -->
-    <svg class="curveUpColor curveGrey" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-        viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
-    </svg>
-
-
-    <!-- CurveUp -->
-    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-        viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
-    </svg>
-
-
-    <!-- Contact Section -->
-    <div class="wrap contact" id="contact">
-        <div class="grid grid-pad">
-            <h2>Contact</h2>
-            
-            <div class="row">
-                <div class = "recent-wrap">
-                <a href="mailto:juliansangiorgio@Outlook.com" target="blank" rel="noreferrer">
-                <img src="images/work/mail.png" class = "footer-icons list-inline" alt ="">
-                </a>
-                <a href="https://github.com/Offgridhuls" target="blank" rel="noreferrer">
-                <img src="images/work/githublogo.png" class="footer-icons list-inline" alt="">
-                </a>
-                <a href="https://www.linkedin.com/in/julian-sangiorgio-9033b61a0/" target="blank" rel="noreferrer">
-                <img src="images/work/linkedin-logo.png" class="footer-icons list-inline" alt="">
-                </a>
-                </div>
-            </div>
-            <div style="text-align: center; padding-top: 50px;">Copyright © Julian Sangiorgio</div>
-        </div>
-    </div>
-    <!-- End Contact Section -->
-
-
-
-    <!-- JS -->
-    <script src="js/jquery.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/mixitup.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/owl-carousel/owl.carousel.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/lightcase.min.js"></script>
-    <script src="js/newScript.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  
 </body>
-
 </html>
