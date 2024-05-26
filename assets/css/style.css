@@ -83,12 +83,14 @@ h4 {
 
 .btn-fill {
     color: #fff;
-    background-color: #212121;
+    background-color: #323546;
+    border-radius: 10px;
 }
 
 .btn-border {
     background-color: transparent;
     color: #212121;
+    
     border: 1px solid #212121; 
 }
 
@@ -139,7 +141,7 @@ html, body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #212121;
+    color: #f8f8f8;
 }
 
 .img-res {
@@ -148,6 +150,8 @@ html, body {
     height: 100vh;
     max-width: 100%;
     max-height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 8px rgba(216, 216, 216, 0.227);
     object-fit: cover;
 }
 
@@ -211,7 +215,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/background.webp) no-repeat center / cover; 
+    background: url(../img/cloudybackground.svg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     min-height: 700px;
@@ -242,6 +246,9 @@ html, body {
 
 .hero h1 {
     font-size: 46px;
+    color: #323546;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
     font-weight: 700;
     margin: 0 0 15px;
     text-transform: uppercase;
@@ -249,6 +256,7 @@ html, body {
 
 .job-title {
     font-size: 22px;
+    color: #323546;
     margin-bottom: 30px;
     line-height: 1;
 } 
@@ -260,14 +268,20 @@ html, body {
 /* SITEMAIN
 ================================================== */
 .site-main {
+    
     position: relative;
     margin-bottom: 100px;
-    background-color: #fff;
+    background-color: #0d1421;
     z-index: 1;
 }
 /* site-section */
 .site-section {
    padding-top: 120px;
+}
+
+.site-bottom-section {
+    padding-top: 0px;
+    
 }
 
 .site-section h2,
@@ -309,7 +323,7 @@ html, body {
 }
 
 .progress-bar {
-    background-color: #212121;  
+    background-color: #53596a;  
 }
 
 /* Section: Services */
@@ -340,10 +354,13 @@ html, body {
 }
 
 .section-services .container {
-    padding: 120px 100px;
+    padding: 60px 50px;
     position: relative;
-    background-color: #fff;
-    box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
+    background-color: #323546;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 8px rgba(216, 216, 216, 0.527);
     z-index: 1;
 }
 
@@ -354,13 +371,13 @@ html, body {
 }
 
 .service p {
-    color: #000;
+    color: #717b99;
     margin-bottom: 0;
 }
 
 /* Section: Portfolio */
 .section-portfolio {
-    padding-bottom: 120px;
+    padding-bottom: 0px;
 }
 
 .portfolio-item {
@@ -377,6 +394,7 @@ html, body {
     content: '';
     height: 100%;
     width: 100%;
+    border-radius: 20px;
     position: absolute;
     top: 0;
     left: 0;

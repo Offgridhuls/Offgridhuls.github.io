@@ -194,7 +194,7 @@
 	    position: absolute;
 	    top: 10px;
 	    height: 2px;
-	    background-color: #fff;
+	    background-color: #323546;
 	}
 
 	.navbar-toggle.act .icon-bar:first-child {
@@ -241,7 +241,7 @@
 	}
 
 	.main-menu {
-		background-color: rgba(33,33,33,0.9);
+		background-color: #3861fb;
 		position: fixed;
 		left: 0;
 		top: 0;

@@ -44,7 +44,7 @@
 </head>
 <body>
 
-    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(108,113,204,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(108,113,204,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
         <nav id="primary-navigation" class="site-navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
@@ -63,11 +63,11 @@
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="page-scroll"><a href="#hero" style="font-size: 25px;"><b>Home</b></a></li>
-                        <li class="page-scroll"><a href="#about" style="font-size: 25px;"><b>About</b></a></li>
-                        <li class="page-scroll"><a href="#service" style="font-size: 25px;"><b>Service</b></a></li>
-                        <li class="page-scroll"><a href="#portfolio" style="font-size: 25px;"><b>Portfolio</b></a></li>
-                        <li class="page-scroll"><a href="#contact" style="font-size: 25px;"><b>Contact</b></a></li>
+                        <li class="page-scroll"><a href="#hero" style="font-size: 25px;color:#323546"><b>Home</b></a></li>
+                        <li class="page-scroll"><a href="#about" style="font-size: 25px;color:#323546"><b>About</b></a></li>
+                        <li class="page-scroll"><a href="#service" style="font-size: 25px;color:#323546"><b>Service</b></a></li>
+                        <li class="page-scroll"><a href="#portfolio" style="font-size: 25px;color:#323546"><b>Portfolio</b></a></li>
+                        <li class="page-scroll"><a href="#contact" style="font-size: 25px;color:#323546"><b>Contact</b></a></li>
                         
                     </ul><!-- /.navbar-nav -->
 
@@ -80,7 +80,6 @@
     <div id="hero" class="hero">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-6">
                     <h1>Julian Sangiorgio</h1>
                     <div class="page-scroll">
@@ -88,9 +87,8 @@
                         <a href="#contact" class="btn btn-fill ">Contact Me &#9993 </a>
                     </div>
                 </div>
-            
                 <div class="col-md-6 text-right">
-                    <img style="border: 5px solid black" src="assets/img/h2.jpg" alt="alex-vidal">
+                    <img style="border: 10px solid;border-radius: 10px; border-color:#323546;" src="assets/img/h2.jpg" alt="alex-vidal">
                 </div>
 
             </div>
@@ -105,12 +103,9 @@
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Hi my name is Julian I am a 20 year old Game Programming Graduate from George Brown College where I have been
-                            exposed to a wide range of topics and specialties. I started programming in high school where I was initially taught in java, which sparked an interest in Game Development. With the new found passion I then went to pursue my dream career of being a Game Developer. I'm looking forward to the many chances that
-                            lie ahead, including the ability to utilise my game and development knowledge in the
-                            real world, all while aiming to be the best person I can be. In the meantime, I enjoy staying
-                            active, and I also spend some of my leisure time watching and participating in sports.</p>
-                        <a href="Julian+Sangiorgio+RESUME2.pdf" class="btn btn-fill" target="_blank" download>Download my Resume</a>
+                        <p>Hi, I'm Julian, a passionate game developer with expertise in C# and C++. 
+                          I specialize in creating immersive and engaging gaming experiences. With a strong foundation in programming and a creative mindset, I bring unique and innovative ideas to life. Explore my portfolio to see the diverse range of projects I've worked on and discover how my skills can contribute to your next game development endeavor.</p>
+                        <a href="JulianSangiorgioResumeUpdated.pdf" class="btn btn-fill" target="_blank" download>Download my Resume</a>
                     </div>
                 </div>
             </div>
@@ -150,6 +145,7 @@
                         </div><!-- /.skill -->
                         
                     </div>
+                    
                 </div>
             </div>
         </section><!-- /.secton-skills -->
@@ -176,13 +172,14 @@
                     <div class="col-sm-4">
                         <div class="service">
                             <h4>Libraries</h4>
-                        <b><p>Unreal Engine<br>
+                        <b><p>Unreal Engine 5<br>
                                 Unity Engine<br>
                                 OpenGL<br>
                                 SDL<br>
                                 OGRE<br>
                                 DirectX<br>
-                                XCode</p>
+                                XCode<br>
+                                Verse</p>
                         </b>
                         </div><!-- /.service -->
                     </div>
@@ -192,7 +189,9 @@
                             <b><p>Git<br>
                                 Perforce<br>
                                 CMake<br>
-                                Doxygen</p>
+                                Doxygen<br>
+                                Plastic SCM<br>
+                                Github</p>
                                 </b>
                         </div><!-- /.service -->
                     </div>
@@ -207,22 +206,32 @@
                     <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                 </div>
                 <div class="row">
+                  <div class="col-md-4 col-xs-6">
+                    <div class="portfolio-item">
+                        <img src="assets/img/HangryLogo.png" class="img-res" alt="">
+                        <div class="portfolio-item-info">
+                            <h4>HANGRY</h4>
+                            <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                            <a href="https://www.hangrygame.com/"><span class="glyphicon glyphicon-link"></span></a>
+                        </div><!-- /.portfolio-item-info -->
+                    </div>
+                    </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/buffbabies.png" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Buff Babies</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="https://tamdevs.itch.io/buff-babies"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                      <div class="portfolio-item">
+                        <img src="assets/img/heatwaveicon.png" class="img-res" alt="">
+                        <div class="portfolio-item-info">
+                            <h4>Heatwave Volleyball</h4>
+                            <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                            <a href="https://heatwavevolleyball.com/"><span class="glyphicon glyphicon-link"></span></a>
+                        </div><!-- /.portfolio-item-info -->
+                    </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
                             <img src="assets/img/planetarium.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Planetarium (Prototype)</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://www.youtube.com/watch?v=xF1flf3pE9A"><span class="glyphicon glyphicon-link"> </span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
@@ -232,7 +241,7 @@
                             <img src="assets/img/terminalscape.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Terminalscape (Prototype)</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://techjumper.itch.io/terminal-scape"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
@@ -242,27 +251,27 @@
                             <img src="assets/img/spacecapitalist.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Space-Capitalist</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://mandipx56.itch.io/space-capitalist"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/rote.png" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Rise Of The Elements</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href=""><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                      <div class="portfolio-item">
+                        <img src="assets/img/buffbabies.png" class="img-res" alt="">
+                        <div class="portfolio-item-info">
+                            <h4>Buff Babies</h4>
+                            <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
+                            <a href="https://tamdevs.itch.io/buff-babies"><span class="glyphicon glyphicon-link"></span></a>
+                        </div><!-- /.portfolio-item-info -->
+                    </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                       <div class="portfolio-item">
                           <img src="assets/img/SpaceParkour.png" class="img-res" alt="">
                           <div class="portfolio-item-info">
                               <h4>Space Parkour (Prototype)</h4>
-                              <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
+                              <a href="#" data-toggle="modal" data-target="#portfolioItem7"><span class="glyphicon glyphicon-eye-open"></span></a>
                               <a href="https://youtu.be/kuDmvJoX2gg"><span class="glyphicon glyphicon-link"></span></a>
                           </div><!-- /.portfolio-item-info -->
                       </div><!-- /.portfolio-item -->
@@ -272,7 +281,7 @@
                             <img src="assets/img/shootoutsim.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Shoot-Out Simulator</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem7"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem8"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://youtu.be/tPMuGiwJeoM"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
@@ -285,22 +294,12 @@
                             <img src="assets/img/DX12demo.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>DirectX12 Demo</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem8"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem9"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://www.youtube.com/watch?v=G6N9SRNO-Us"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
 
-                    <div class="col-md-4 col-xs-6">
-                      <div class="portfolio-item">
-                          <img src="assets/img/Resource.png" class="img-res" alt="">
-                          <div class="portfolio-item-info">
-                              <h4>Resource Mining Minigame</h4>
-                              <a href="#" data-toggle="modal" data-target="#portfolioItem9"><span class="glyphicon glyphicon-eye-open"></span></a>
-                              <a href="https://youtu.be/UfWsSg0IlJM"><span class="glyphicon glyphicon-link"></span></a>
-                          </div><!-- /.portfolio-item-info -->
-                      </div><!-- /.portfolio-item -->
-                  </div>
                 </div>
             </div>
         </section><!-- /.secton-portfolio -->
@@ -309,7 +308,6 @@
 
         <section id="contact" class="site-section section-form text-center">
             <div class="container">
-
                 <h3>Contact</h3>
                 <img src ="assets/img/lines.svg" class="img-lines" alt="lines">
                 <div class ="row">
@@ -338,20 +336,36 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/buffbabies.png" alt="">
+            <img class="img-res" src="assets/img/HangryLogo.png" alt="">
           </div>
           <div class="modal-body">
-            <h4 class="modal-title">Buff Babies</h4>
-            <p>School project made with Game Programming students at George Brown College. Buff babies is about a baby in a dream who is fending off monsters to avoid bedtime. The buff baby has a combo moveset they learned from watching boxing videos on TV. They collect candy and special power ups while they try to avoid spike traps, swinging pendulum hammers and unstable platforms along the way.</p>
+            <h4 class="modal-title">HANGRY</h4>
+            <p>As a gameplay and VFX programmer for "Hangry," I worked on key gameplay elements such as sidequests, pickups, and various other mechanics to ensure an intuitive and balanced player experience. Additionally, I created, implemented, and optimized all particle systems to enhance the game's immersive experience. "Hangry" showcases my technical skills and creative vision, delivering a visually stunning and engaging game.</p>
           </div>
           <div class="modal-footer">
-            <a href="https://tamdevs.itch.io/buff-babies" class="btn btn-fill">View On Itch.io &#8594</a>
+            <a href="https://store.steampowered.com/app/2601510/HANGRY/" class="btn btn-fill">View On Steam &#8594</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/heatwaveicon.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Heatwave Volleyball</h4>
+            <p>As a gameplay programmer for "Heatwave Volleyball," I was responsible for camera and player interactions, ensuring smooth and responsive controls to enhance the mobile gaming experience. My work involved designing intuitive camera movements and creating seamless player interactions, contributing to the game's engaging and dynamic feel. "Heatwave Volleyball" showcases my expertise in gameplay programming and my ability to deliver a polished, user-friendly gaming experience.</p>
+          </div>
+          <div class = "modal-footer">
+            <a href = "https://heatwavevolleyball.com" class="btn btn-fill">View website &#8594</a>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
-    <div id="portfolioItem2" class="modal fade" role="dialog">
+    <div id="portfolioItem3" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -368,8 +382,7 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
-    <div id="portfolioItem3" class="modal fade" role="dialog">
+    <div id="portfolioItem4" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -386,8 +399,7 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
-    <div id="portfolioItem4" class="modal fade" role="dialog">
+    <div id="portfolioItem5" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -404,25 +416,24 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
-    <div id="portfolioItem5" class="modal fade" role="dialog">
+    <div id="portfolioItem6" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/rote.png" alt="">
+            <img class="img-res" src="assets/img/buffbabies.png" alt="">
           </div>
           <div class="modal-body">
-            <h4 class="modal-title">Rise Of The Elements</h4>
-            <p>Rise of the Elements is a real-time third person open-world action RPG that focuses on fantasy elements. In ROTE, the player has the opportunity to wield the powers of the elements of fire, water, earth, and air.  Each element is manifested in the form of a unique world, and it will be the player's goal to travel across each of these worlds in search of stones that each harness the powers of the four elements. Each stone is protected by a boss, and collecting the stone symbolises respect for the land you've traversed, unlocking a path to a cure for the Rot. </p>
+            <h4 class="modal-title">Buff Babies</h4>
+            <p>School project made with Game Programming students at George Brown College. Buff babies is about a baby in a dream who is fending off monsters to avoid bedtime. The buff baby has a combo moveset they learned from watching boxing videos on TV. They collect candy and special power ups while they try to avoid spike traps, swinging pendulum hammers and unstable platforms along the way.</p>
           </div>
-          <div class = "modal-footer">
-            <a href = # class="btn btn-fill">Reference Available Upon Request &#8594</a>
+          <div class="modal-footer">
+            <a href="https://tamdevs.itch.io/buff-babies" class="btn btn-fill">View On Itch.io &#8594</a>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-    <div id="portfolioItem6" class="modal fade" role="dialog">
+    <div id="portfolioItem7" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -439,7 +450,7 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-    <div id="portfolioItem7" class="modal fade" role="dialog">
+    <div id="portfolioItem8" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -456,8 +467,7 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
-    <div id="portfolioItem8" class="modal fade" role="dialog">
+    <div id="portfolioItem9" class="modal fade" role="dialog">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -474,25 +484,6 @@
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
       </div>
-
-      <div id="portfolioItem9" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-              <img class="img-res" src="assets/img/Resource.png" alt="">
-            </div>
-            <div class="modal-body">
-              <h4 class="modal-title">Resource Mining Minigame</h4>
-              <p>A mining minigame made as an assignment at George Brown College. A grid of tiles are created and indexed at the start of the scene. Resource chunks are created in the grid in which you are supposed to find and extract using the limited amount of scans and extracts given to you at the beginning of the game. Made with Unity.</p>
-            </div>
-            <div class="modal-footer">
-              <a href="https://youtu.be/UfWsSg0IlJM" class="btn btn-fill">View On Youtube &#8594</a>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
